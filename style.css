@@ -1,5 +1,7 @@
 html {
     font-family: 'Baloo Bhaijaan 2', cursive;
+    background: url('foto.jpg') no-repeat center fixed;     
+    background-size: cover;
 }
 
 h1 {
@@ -19,16 +21,14 @@ h1 {
 }
 
 .boton {
+    border-style: solid;
+    border-radius: 5px;
+    min-width: 40px;
+    text-align: center;
     color: rgb(0, 0, 0);
-    margin: 10px 20px 10px 20px;
+    margin: 5px 20px 5px 20px;
 }
 
 .boton:hover{
     color:rgb(255, 30, 0);
-}
-
-.imagen {
-    position: absolute;
-    top: 0%;
-    z-index: -1;
 }
